@@ -6,7 +6,10 @@
     height: 100px;
     font-family: Arial, Helvetica, sans-serif;
     margin: auto;
+    font-weight: 100
     }
+
+
 h2{text-align: center; 
     background-color: #ebebeb;
     color:#777;        
@@ -14,14 +17,19 @@ h2{text-align: center;
     Font-size: 18px;
     height: 100px;
     font-family: Arial, Helvetica, sans-serif;
-     margin: auto;
+    margin: auto;
+    font-weight: 100
      }
+
 
 body{
     background: #777;
     margin: auto;
     max-width: 960px;
     color: #777;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    top: 10px
 }
 
 
@@ -40,8 +48,13 @@ section{
     background-color: #777;
     color: #ebebeb;
     margin: auto;
-    height: 200px
-    
+    height: 200px;
+}
+
+#article-header{
+    position: relative;
+    top:10px;
+    font-weight: 100
 }
 
 #main-div{ 
@@ -51,6 +64,7 @@ section{
     text-align: center;
     height: 200px;
     width: 90%;
+
 }
 
 #p {
@@ -59,9 +73,12 @@ section{
     color:#777;
     width: 75%;
     font-size: 18px;
-    padding: 10px;
+    padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
     margin: auto;
+    position: relative;
+    top: -40px;
+    font-weight: 100
 }
 
 #second-header {
@@ -70,9 +87,12 @@ section{
     color:#777;
     width: 75%;
     font-size: 18px;
-    padding: 10px;
+    padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
     margin: auto;
+    position: relative;
+    top: -30px;
+    font-weight: 100;
 }
 
 aside {
@@ -82,7 +102,6 @@ aside {
     width: 450px;
     height: 320px;
     text-align: center;
-
 
 }
 
@@ -102,6 +121,4 @@ footer{
     font-family: Arial, Helvetica, sans-serif;
     position: fixed;
     bottom: 130px
-    
-
 }
